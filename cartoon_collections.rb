@@ -14,8 +14,12 @@ end
 def summon_captain_planet(arr)
   
   narr=[]
-  narr = arr.map {|element| element.upcase! + "!"}
+  arr.map do |element| 
+    
+    narr << element.upcase! + "!"
   
+  end
+  narr
 
 end
 

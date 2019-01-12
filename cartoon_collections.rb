@@ -11,10 +11,10 @@ def roll_call_dwarves(list)
   
 end
 
-def summon_captain_planet(calls)
+def summon_captain_planet(arr)
   
-  
-  calls.map! {|element| element.upcase! + "!"}
+  narr=[]
+  narr = arr.map {|element| element.upcase! + "!"}
   
 
 end

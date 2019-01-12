@@ -45,7 +45,7 @@ def find_the_cheese(snacks)
     
     if snacks.include?(cheese) == true
       
-      return true
+      return cheese
       
     end
     

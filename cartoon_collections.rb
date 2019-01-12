@@ -14,7 +14,7 @@ end
 def summon_captain_planet(arr)
   
   
-  arr.map!{ |element| element.captalize + "!"}
+  arr.map!{ |element| element.capitalize + "!"}
     
 
 end

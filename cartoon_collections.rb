@@ -43,7 +43,7 @@ def find_the_cheese(snacks)
   
   cheese_types.each do |cheese|
     
-    if snacks.include? == true
+    if snacks.include?(cheese) == true
       
       return true
       
